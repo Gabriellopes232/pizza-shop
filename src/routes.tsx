@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
     children: [{ path: '/', element: <Dashboard /> }]
   },
   {
-    path: '/sign-in',
+    path: '/',
     element: <AuthLayout />,
     children: [
       { path: '/sign-in', element: <SignIn /> },
